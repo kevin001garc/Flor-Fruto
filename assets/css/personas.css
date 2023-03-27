@@ -1,0 +1,22 @@
+.persona{
+    width: calc(28% - 2rem);
+    display: flex;
+    flex-direction: column;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+@media only screen and (max-width: 600px){
+    .personas{
+        flex-direction: column;
+    }
+    .persona{
+        width: calc(100% - 2rem);
+        align-items: center;
+        padding-top: 1rem;
+    }
+}
